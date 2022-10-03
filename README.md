@@ -9,7 +9,7 @@ Python, Django, Git, Bootstrap, nginx, gunicorn, PostegreSQl,
 ## Установка 
 Клонируем репозиторий на локальную машину:
 
-```$ git clone https://github.com/netshy/hw05_final```
+```$ git clone https://github.com/vkletkin/yatube-main```
 
  Создаем виртуальное окружение:
  
