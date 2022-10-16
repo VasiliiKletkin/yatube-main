@@ -1,28 +1,28 @@
 # YaTube
 
 ## Описание
-На сайте можно постить новости, размещать картинки, комментировать посты, разделять посты по группам (категориям), подписываться на любимого автора. Реализовано кэширование, работает на главной странице и обновляется раз в 20 секунд. Написаны unit-тесты. В панеле администратора, кроме стандартного набора возможностей, можно удалять посты, комментарии и группы.
+On the site you can post news, post pictures, comment on posts, divide posts into groups (categories), subscribe to your favorite author. Implemented caching, works on the main page and is updated every 20 seconds. Written unit tests. In the admin panel, in addition to the standard set of features, you can delete posts, comments and groups.
 
-Проект был создан в учебных целях. Был использован стек:
+The project was created for educational purposes. Stack was used:
 Python, Django, Git, Bootstrap, nginx, gunicorn, PostegreSQl,
 
 ## Установка 
-Клонируем репозиторий на локальную машину:
+Clone the repository on the local machine:
 
 ```$ git clone https://github.com/vkletkin/yatube-main```
 
- Создаем виртуальное окружение:
+ Create a virtual environment:
  
  ```$ python -m venv venv```
  
- Устанавливаем зависимости:
+ Install dependencies:
 
 ```$ pip install -r requirements.txt```
 
-Создание и применение миграций:
+Creating and applying migrations:
 
 ```$ python manage.py makemigrations``` и ```$ python manage.py migrate```
 
-Запускаем django сервер:
+Starting the django server:
 
 ```$ python manage.py runserver```
