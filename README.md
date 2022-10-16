@@ -11,7 +11,9 @@ Social network of free writers. The following features are implemented in the pr
 * Subscribe to the author
 * Pagination of pages
 * Access control
+
 ---
+
 ### Technologies:
 * Python
 * Django
@@ -19,6 +21,7 @@ Social network of free writers. The following features are implemented in the pr
 * Git
 * gunicorn
 * PostegreSQl
+
 ---
 
 ### Installation
