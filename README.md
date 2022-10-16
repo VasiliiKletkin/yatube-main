@@ -36,7 +36,7 @@ Clone the repository on the local machine:
 
 Creating and applying migrations:
 
-```$ python manage.py makemigrations``` и ```$ python manage.py migrate```
+```$ python manage.py makemigrations``` and  ```$ python manage.py migrate```
 
 Starting the django server:
 
