@@ -3,8 +3,23 @@
 ## Description
 On the site you can post news, post pictures, comment on posts, divide posts into groups (categories), subscribe to your favorite author. Implemented caching, works on the main page and is updated every 20 seconds. Written unit tests. In the admin panel, in addition to the standard set of features, you can delete posts, comments and groups.
 
-The project was created for educational purposes. Stack was used:
-Python, Django, Git, Bootstrap, nginx, gunicorn, PostegreSQl,
+Social network of free writers. The following features are implemented in the project:
+* Registration
+* Create a post
+* Recover password
+* Comment on posts
+* Subscribe to the author
+* Pagination of pages
+* Access control
+---
+### Technologies:
+* Python
+* Django
+* Pytest
+* Git
+* gunicorn
+* PostegreSQl
+---
 
 ## Installation
 Clone the repository on the local machine:
