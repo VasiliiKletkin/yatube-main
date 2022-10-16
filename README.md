@@ -12,7 +12,7 @@ Social network of free writers. The following features are implemented in the pr
 * Pagination of pages
 * Access control
 ---
-### Technologies:
+## Technologies:
 * Python
 * Django
 * Pytest
